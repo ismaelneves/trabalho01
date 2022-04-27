@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulário</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <h1>Formulário</h1>
+    <form>
+      <fieldset>
+        <legend>Dados pessoais</legend>
+        <label>Nome:</label>
+        <input type="text"><br>
+        <label>Data de nascimento:</label>
+        <input type="text"><br>
+        <label>Endereço:</label>
+        <input type="text"><br>
+        <label>Bairro:</label>
+        <input type="text">
+        <label>Cidade:</label>
+        <input type="text"><br>
+        <label>CEP:</label>
+        <input type="text">
+        <label>Estado</label>
+        <select>
+          <option>Ceará</option>
+          <option>São Paulo</option>
+          <option>Tocantins</option>
+          <option>Minas Gerais</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Dados profissionais</legend>
+        <label>Natureza do Cargo</label><br>
+        <input type="radio" id="c1" name="cargo" value="gerencia"> Gerência <input type="radio" id="c2" name="cargo" value="financeiro"> Financeiro <input type="radio" id="c3" name="cargo" value="recepcao"> Recepção <input type="radio" id="c4" name="cargo" value="administrativo"> Administrativo <input type="radio" id="c5" name="cargo" value="juridico"> Jurídico<br><br>
+        <label>Área de interesse</label><br>
+        <input type="checkbox" name="area" value="computacao"> Computação <input type="checkbox" name="area" value="quimica"> Química <input type="checkbox" name="area" value="meio"> Meio Ambiente <input type="checkbox" name="area" value="engenharia"> Engenharia <input type="checkbox" name="area" value="matematica"> Matemática<br>
+        <label>Mini-currículo</label><br>
+        <textarea rows="5" cols="50"></textarea>
+      </fieldset><br>
+      <input type="submit" value="Enviar"> <input type="reset" value="Limpar">
+    </form>
+  </body>
+</html>
